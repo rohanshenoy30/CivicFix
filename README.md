@@ -115,7 +115,7 @@ The contract was compiled in Remix and deployed to the local Ganache workspace u
 In `frontend/app.js`, set the contract address near the top:
 
 ```javascript
-const CONTRACT_ADDRESS = "PASTE_FULL_GANACHE_DEPLOYED_ADDRESS_HERE";
+const CONTRACT_ADDRESS = "0x1744D1C44E4245fd70E1deA560Aed05AD88f8243";
 ```
 
 The contract ABI is included in `app.js` and must match `CivicFix.sol`.
@@ -164,31 +164,31 @@ The smart contract enforces the validation and authorization rules above. For fo
 
 ### 1. Frontend home page
 
-![CivicFix frontend home page](evidence/01-frontend-home.png)
+![CivicFix frontend home page](CivicFix_DApp/evidence/01-frontend-home.png)
 
 ### 2. Complaint history and administrator desk
 
-![Complaint history and administrator desk](evidence/02-complaint-history-admin-desk.png)
+![Complaint history and administrator desk](CivicFix_DApp/evidence/02-complaint-history-admin-desk.png)
 
 ### 3. Complaint status history in the UI
 
-![Complaint history showing the Submitted event](evidence/03-complaint-history.png)
+![Complaint history showing the Submitted event](CivicFix_DApp/evidence/03-complaint-history.png)
 
 ### 4. MetaMask transaction request
 
-![MetaMask transaction request for a CivicFix action](evidence/04-metamask-transaction-request.png)
+![MetaMask transaction request for a CivicFix action](CivicFix_DApp/evidence/04-metamask-transaction-request.png)
 
 ### 5. Successful complaint transaction and on-chain records
 
-![Successful complaint transaction and records displayed in CivicFix](evidence/05-successful-complaint-transaction.png)
+![Successful complaint transaction and records displayed in CivicFix](CivicFix_DApp/evidence/05-successful-complaint-transaction.png)
 
 ### 6. Remix contract interaction and returned data
 
-![Remix contract interaction showing calls and complaint data](evidence/06-remix-contract-interaction.png)
+![Remix contract interaction showing calls and complaint data](CivicFix_DApp/evidence/06-remix-contract-interaction.png)
 
 ### 7. Dashboard after multiple submissions and status update
 
-![CivicFix dashboard showing three reports and one in progress](evidence/07-live-dashboard-three-reports.png)
+![CivicFix dashboard showing three reports and one in progress](CivicFix_DApp/evidence/07-live-dashboard-three-reports.png)
 
 ## Security and privacy notes
 
