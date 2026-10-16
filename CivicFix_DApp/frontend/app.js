@@ -1,5 +1,5 @@
 /* CivicFix frontend. Set CONTRACT_ADDRESS and CONTRACT_ABI after deploying in Remix. */
-const CONTRACT_ADDRESS = ""; // Paste deployed contract address here.
+const CONTRACT_ADDRESS = "0x1744D1C44E4245fd70E1deA560Aed05AD88f8243"; // Paste deployed contract address here.
 const CONTRACT_ABI = [
   "function administrator() view returns (address)",
   "function complaintCount() view returns (uint256)",
